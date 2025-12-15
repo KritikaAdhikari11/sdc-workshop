@@ -4,8 +4,8 @@ public class pattern {
 		for (int count : counts) {
 			for (int i = 0; i < count; i++) {
 				System.out.print("*");
-				if (i < count - 1) System.out.print(" ");
-			}
+				if (i < count - 1){ System.out.print(" ");
+			}}
 			System.out.println();
 		}
 	}
